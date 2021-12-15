@@ -77,6 +77,7 @@ namespace cse210_batter_csharp.Scripting
                 {
                     dx = 1;
                     dy = -4;
+                    
                 }
 
                 dy = -dy;                
