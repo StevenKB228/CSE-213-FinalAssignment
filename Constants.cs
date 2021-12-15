@@ -19,6 +19,8 @@ namespace cse210_batter_csharp
         public const string IMAGE_PADDLE = "./Assets/Player 04.png";
         public const string IMAGE_GOALKEEPER = "./Assets/Goal 42.png";
         public const string IMAGE_BALL = "./Assets/ball 2.png";
+         public const string IMAGE_FIELD = "./Assets/grassfield.png";
+
 
         public const string SOUND_START = "./Assets/start.wav";
         public const string SOUND_BOUNCE = "./Assets/boing.wav";

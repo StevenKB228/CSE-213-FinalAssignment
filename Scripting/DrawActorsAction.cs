@@ -21,6 +21,8 @@ namespace cse210_batter_csharp.Scripting
         {
             _outputService.StartDrawing();
 
+            _outputService.DrawImage(0,0,Constants.IMAGE_FIELD);
+
             foreach (List<Actor> group in cast.Values)
             {
                 _outputService.DrawActors(group);

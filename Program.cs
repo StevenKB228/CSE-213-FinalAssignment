@@ -19,7 +19,7 @@ namespace cse210_batter_csharp
             // TODO: Add your bricks here
        
                     Brick b = new Brick();
-                    b.SetPosition(new Point(250, 5));
+                    b.SetPosition(new Point(250,140));
                     cast["bricks"].Add(b);
 
             // The Ball (or balls if desired)
@@ -27,7 +27,7 @@ namespace cse210_batter_csharp
 
             // TODO: Add your ball here
             Ball orb = new Ball();
-            orb.SetPosition(new Point(385, 320));
+            orb.SetPosition(new Point(385, 390));
             cast["balls"].Add(orb);
             
             
@@ -43,14 +43,14 @@ namespace cse210_batter_csharp
             cast["gkeeper"] = new List<Actor>();
             // TODO: Add your paddle here
             GKeeper paddle1 = new GKeeper();
-            paddle1.SetPosition(new Point(355, 50));
+            paddle1.SetPosition(new Point(355, 180));
             cast["gkeeper"].Add(paddle1);
 
             // The paddle
             cast["paddle"] = new List<Actor>();
             // TODO: Add your paddle here
             Paddle paddle = new Paddle();
-            paddle.SetPosition(new Point(355, 400));
+            paddle.SetPosition(new Point(355, 450));
             cast["paddle"].Add(paddle);
 
             // Create the script
