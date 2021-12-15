@@ -15,9 +15,9 @@ namespace cse210_batter_csharp
         public const int DEFAULT_FONT_SIZE = 20;
         public const int DEFAULT_TEXT_OFFSET = 4;
 
-        public const string IMAGE_BRICK = "./Assets/goal image 4.png";
-        public const string IMAGE_PADDLE = "./Assets/Player 24.png";
-        public const string IMAGE_GOALKEEPER = "./Assets/Goal 22.png";
+        public const string IMAGE_BRICK = "./Assets/goal image 5.png";
+        public const string IMAGE_PADDLE = "./Assets/Player 04.png";
+        public const string IMAGE_GOALKEEPER = "./Assets/Goal 42.png";
         public const string IMAGE_BALL = "./Assets/ball 2.png";
 
         public const string SOUND_START = "./Assets/start.wav";
